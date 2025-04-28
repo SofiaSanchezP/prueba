@@ -1,0 +1,118 @@
+
+:root {
+    --color1:#b791c0;
+    --color2: #A2AD91;
+}
+
+@media  screen and (max-width: 768px) {
+
+    body {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: var(--color1);
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    header div {
+        padding: 0;
+    }
+    
+    #menu {
+        width: 40px;
+        height: 40px;
+        background-color: whitesmoke;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 100%;
+        height: 200px;
+    }
+
+    section h2, h3, h4, a, div {
+        padding-left: 20px;
+    }
+
+    #seccion1 {
+        background-image: url("./imagenes/fondo-header.png");
+        margin: 20px 0;
+        color: whitesmoke;
+    }
+
+    #seccion2 {
+        background-color: var(--color2);
+        color: whitesmoke;
+    }
+
+    #seccion3 {
+     width: 100%;
+     margin: 20px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+    #seccion3 img {
+        border: 900px;
+        border-style: inherit;
+        border-color: var(--color2);
+    }
+
+    #seccion4 {
+        background-color: var(--color2);
+        color: whitesmoke;
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #contacto #mensaje {
+        width: 80%;
+        height: 100px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    #contacto input {
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        width: 80%;
+        padding-left: 10px;
+    }
+
+    footer {
+        margin-top: 20px;
+        width: 100%;
+        height: 60px;
+        background-color: var(--color1);
+        text-align: center;
+    } 
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1024px) { 
+
+}
